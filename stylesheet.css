@@ -1,0 +1,88 @@
+.top {
+	width: 100%;
+	text-align: right;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	height: 50px;
+	position: relative;
+}
+.tpleft{
+	margin-right: 145px;
+	margin-top: 20px;
+}
+#name{
+	padding: 7px;
+	
+}
+#topgmail{
+	padding: 7px;;
+}
+
+#topimage{
+	padding: 7px;
+	
+}
+
+a{
+	text-decoration: none;
+	color: rgb(34,34,34);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+.center{
+	text-align: center;
+	margin-top: 130px;
+	position: relative;
+}
+#gimage{
+	height: 95px;
+	width: 270px;
+	margin-bottom: 15px;
+}
+
+.search{
+	margin-top: 5px;
+	position: relative;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+.bottom{
+	width: 100%;
+	bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+	display: inline;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #f1f1f1;
+	color: #616161;	
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+#rtbtm{
+	text-align: right;
+	float: right;
+	margin-top: 10px;
+	
+}
+
+#lftbtm{
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+
+}
+
+span a{
+	padding: 15px;
+}  /* Probably should have used each id for the links on the footer, but that 
+only causes you to have repetitious code. You would need to do so
+if you wanted to expand on this page, but for this project it works. 
+Or maybe create a class for these links alone. But this works, and is 
+a first attempt at a webpage.*/
